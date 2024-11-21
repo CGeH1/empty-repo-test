@@ -19,7 +19,38 @@
 }
 .welcome {
 	text-align: center;
-	margin: 100px;
+	padding-top: 64px;
+	padding-right: 16px;
+	padding-bottom:64px;
+	padding-left: 16px;
+}
+.menu {
+	display:flex;
+}
+.item {
+	flex-direction: column;
+	display:flex;
+	flex:1;
+}
+.menu_title {
+	text-align: center;
+}
+.menu_desc {
+	text-align: center;
+	padding-right: 16px;
+	padding-left: 16px;
+	padding-bottom: 16px;
+}
+.option {
+	width: 100%;
+	display:flex;
+	justify-content: space-between;
+}
+.price-title {	
+	flex:1;
+}
+.blank {
+	flex:0.05;
 }
 h3 {
 	font-family: Barlow;
@@ -34,7 +65,8 @@ h2{
 	size: 32px;
 	line-height: 40px;
 	color: #424242;
-p {
+}
+p	{
 	font-family: Barlow;
 	weight: 400px;
 	size: 14px;
